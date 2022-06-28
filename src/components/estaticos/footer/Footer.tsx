@@ -8,8 +8,8 @@ import React from 'react';
 function Footer () {
     return (
         <>
-            <Grid container direction="row" justifyContent="center" alignItems="center">
-                <Grid alignItems="center" item xs={12}>
+            <Grid container direction="row" justifyContent="center">
+                <Grid item xs={12}>
                     <Box style={{ backgroundColor: "#3F51B5", height: "120px" }}>
                         <Box paddingTop={1} display="flex" alignItems="center" justifyContent="center">
                             <Typography variant="h5" align="center" gutterBottom style={{ color: "white" }}>Siga-nos nas redes sociais </Typography>
@@ -18,10 +18,10 @@ function Footer () {
                             <a href="https://www.facebook.com/generationbrasil" target="_blank">
                                 <FacebookIcon style={{ fontSize: 60, color: "white" }} />
                             </a>
-                            <a href="https://www.instagram.com/generationbrasil/" target="_blank">
+                            <a href="https://www.instagram.com/luan_saramago/" target="_blank">
                                 <InstagramIcon style={{ fontSize: 60, color: "white" }} />
                             </a>
-                            <a href="https://www.linkedin.com/school/generationbrasil/" target="_blank">
+                            <a href="https://www.linkedin.com/in/luan-saramago/" target="_blank">
                                 <LinkedInIcon style={{ fontSize: 60, color: "white" }} />
                             </a>
                         </Box>

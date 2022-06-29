@@ -16,7 +16,7 @@ function Login() {
                         <TextField id='senha' label='senha' variant='outlined' name='senha' margin='normal' type='password' fullWidth />
                         <Box marginTop={2} textAlign='center'>
                             <Link to='/home' className='text-decorator-none'>
-                                <Button type='submit' variant='contained' color='primary'>
+                                <Button type='submit' variant='contained' color='primary' className="botaologin">
                                     Logar
                                 </Button>
                             </Link>

@@ -1,15 +1,15 @@
 .box1 {
-    background-color: #3F51B5;
+    background: linear-gradient(0deg, rgba(52,136,136,1) 25%, rgba(34,186,187,1) 85%);
     height: 120px;
 }
 
 .box2 {
-    background-color: #303F9F;
+    background-color: #348888;
     height: 60px;
 }
 
 .redes {
-    font-size: 60px !important;
+    font-size: 55px !important;
     color: white;
 }
 

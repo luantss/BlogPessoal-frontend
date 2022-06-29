@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Staatliches&display=swap');
+
+.back {
+    background: linear-gradient(0deg, rgba(34,186,187,1) 25%, rgba(52,136,136,1) 85%) !important;
+}
+
+.tbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textitens {
+    font-family: 'Staatliches' !important;
+}
+
+.textitens:hover {
+    border-bottom: 1px solid white;
+}
+
 .cursor {
     cursor: pointer;
     color: #ffffff;
@@ -5,4 +24,9 @@
 
 .text-decorator-none {
     text-decoration: none;
+}
+
+.textblog {
+    font-family: 'Playball' !important;
+    font-size: 30px !important;
 }

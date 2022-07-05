@@ -1,6 +1,7 @@
 import { Button, Grid, Typography } from "@material-ui/core";
 import { Box } from "@mui/material";
 import React from "react";
+import TabPostagem from "../../components/postagens/tabpostagem/TabPostagem";
 import './Home.css';
 
 //Isso é um componente que pode ser reutilizado 
@@ -24,7 +25,8 @@ function Home() {
                 <Grid item xs={6} >
                     <img src="https://i.imgur.com/H88yIo2.png" alt="" width="500px" height="500px" />
                 </Grid>
-                <Grid xs={12} className="postagens">
+                <Grid xs={12} className='postagens'>
+                    <TabPostagem />
                 </Grid>
             </Grid>
         </>

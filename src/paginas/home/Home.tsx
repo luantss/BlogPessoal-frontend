@@ -1,12 +1,27 @@
 import { Button, Grid, Typography } from "@material-ui/core";
 import { Box } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import useLocalStorage from "react-use-localstorage";
+import ModalPostagem from "../../components/postagens/modalPostagem/ModalPostagem";
 import TabPostagem from "../../components/postagens/tabpostagem/TabPostagem";
 import './Home.css';
 
 //Isso é um componente que pode ser reutilizado 
 // é uma função JS ou TS que irá retornar uma função em HTML 
 function Home() {
+
+    let navigate = useNavigate();
+    const [token, setToken] = useLocalStorage('token');
+    
+    useEffect(() => {
+      if (token == "") {
+          alert("Você precisa estar logado")
+          navigate("/login")
+  
+      }
+  }, [token])
+
     return (
         // caminho abreviado ou fragment 
         <>
@@ -18,6 +33,7 @@ function Home() {
                     </Box>
                     <Box display="flex" justifyContent="center">
                         <Box marginRight={1}>
+                            <ModalPostagem />
                         </Box>
                         <Button variant="outlined" className="botao">Ver Postagens</Button>
                     </Box>

@@ -7,10 +7,11 @@
     font-weight: bold !important;
 }
 
-.botao {
+.botaoposts {
     border-color: #ffffff !important;
     background-color: #FA7F08 !important;
     color: #ffffff !important;
+    text-decoration: none !important;
 }
 
 .postagens {

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playball&family=Staatliches&display=swap');
 
 .back {
-    background: linear-gradient(0deg, rgba(34,186,187,1) 25%, rgba(52,136,136,1) 85%) !important;
+    background-color: #348888 !important;
 }
 
 .tbar {

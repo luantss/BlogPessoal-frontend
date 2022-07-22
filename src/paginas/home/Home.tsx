@@ -49,7 +49,7 @@ function Home() {
                             <ModalPostagem />
                         </Box>
                         <Link to="/posts">
-                        <Button variant="outlined" className="botao">Ver Postagens</Button>
+                        <Button variant="outlined" className="botaoposts">Ver Postagens</Button>
                         </Link>
                     </Box>
                 </Grid>
